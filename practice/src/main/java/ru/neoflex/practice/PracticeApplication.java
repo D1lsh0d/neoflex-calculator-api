@@ -11,9 +11,5 @@ public class PracticeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PracticeApplication.class, args);
-
-		System.out.println(CalcController.Plus(10, 5));
-		System.out.println(CalcController.Minus(10, 5));
 	}
-
 }
